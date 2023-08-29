@@ -1,6 +1,6 @@
 
 <div style="text-align: center;">
-  <img src="fyh_logo.png" alt="Centered Image" />
+  <img src="fyh_logo.png" alt="fyh" />
 </div>
 
 #
