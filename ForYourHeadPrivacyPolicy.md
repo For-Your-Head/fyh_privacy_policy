@@ -3,87 +3,113 @@
   <img src="fyh_logo.png" alt="fyh" />
 </div>
 
-#
+# For Your Head Privacy Policy
 
+**Last updated: 23 November 2026**
 
-# For Your Head App’s Privacy Policy
+This policy explains what information the For Your Head app ("the App") collects, why, who it is shared with, and the choices you have. The App is made by For Your Head LLC ("we", "us"). If you have any questions, email us at [info@foryourheadapp.com](mailto:info@foryourheadapp.com).
 
-For Your Head was built as a free app. This App is provided at no cost and is intended for use as is. 
+## The short version
 
-This page is used to inform visitors regarding policies with the collection, use, and disclosure of Personal Information if anyone decides to use this Application. 
+- You can play without creating an account.
+- We do not sell your information and the App shows no ads.
+- Videos of your rounds stay on your phone. They only leave it if you choose to share or save them.
+- You can delete your account at any time in **Settings → Delete Account**.
 
-If you choose to use this Application, then you agree to the collection and use of information in relation to this policy.  
+## Information we collect
 
-At For Your Head, the Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy. 
+### 1. Your account
 
-This Privacy Policy applies only to our online activities and is valid for visitors to our website and mobile apps with regards to the information that they shared and/or collect in For Your Head. This policy is not applicable to any information collected offline or via channels other than this website and our mobile apps. 
+- **Anonymous ID.** When you first open the App, we create an anonymous account ID using Google Firebase Authentication, so the App can work without you signing in.
+- **Sign in with Apple or Google (optional).** If you choose to sign in, Firebase Authentication receives an account identifier from Apple or Google and, depending on what you allow, your email address and basic profile information. Apple lets you hide your real email address with "Hide My Email".
 
-## Information Collection and Use
+### 2. Purchases
 
-For a better experience, while using our Application, we may require you to provide us with certain personally identifiable information, including but not limited to: 
+- If you unlock a deck, we store the IDs of the decks you own against your account ID in our database (Google Cloud Firestore), so they stay unlocked on any phone where you sign in.
+- Payments are handled by Apple (App Store) or Google (Google Play). We never see or store your card details.
+- We use **RevenueCat** to confirm and restore purchases. RevenueCat receives your account ID and your purchase history from the store.
 
-- Phone Camera 
-- Phone Microphone 
-- Sensors 
+### 3. How you use the App (analytics)
 
-The information that we request will be retained on your device and is not collected by us in any way. 
+We use **Google Firebase Analytics** to understand how the App is used and to improve it. This includes:
 
-## Log Data
+- screens you view, decks you open and finish, game modes you play, and buttons you tap (for example Share, Save and Play again);
+- settings you change (for example round length, sound effects and passes per round);
+- purchases you start;
+- the words you type into the deck search.
 
-For Your Head follows a standard procedure of using log files(data). These files log visitors when they visit websites or mobile apps. All hosting companies do this and a part of hosting services’ analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users’ movement on the website/mobile apps, and gathering demographic information.  
+Firebase Analytics also collects some information automatically, such as your device model, operating system and app version, an app instance identifier, and your approximate country or region.
 
-## Cookies
+### 4. Deck search
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory. 
+When you search for a deck, your search text is sent to **Algolia**, the service that powers our search, so it can return matching decks.
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service. 
+### 5. Notifications
 
-## Service Providers
+If you allow notifications, **Firebase Cloud Messaging** gives your device a notification token so we can send you updates such as new decks. You can turn notifications off at any time in your phone's settings.
 
-For Your Head may employ third-party companies and individuals due to the following reasons: 
+## Information that stays on your phone
 
-- To facilitate our Service; 
-- To provide the Service on our behalf; 
-- To perform Service-related services; or 
-- To assist us in analyzing how our Service is used. 
+- **Camera and microphone.** With your permission, the App films each round with your front camera and microphone so you can watch it back. These videos are saved only on your phone, inside the App ("Your clips" keeps your most recent rounds, and you can delete any of them). We do not upload them. A video only leaves your phone if you choose to share it or save it to your photo library.
+- **Motion sensors.** The App uses your phone's motion sensors to detect when you tilt it during a round. This is processed on your phone and is not sent to us.
+- **Your settings** (such as sound, round length, passes per round and your radio station) are saved on your phone.
 
-We want to inform users of this Service that these third parties ***NEVER*** have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf.  
+## How we use information
 
-## Security 
+We use the information above to:
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security. 
+- run the App and your account, and keep your purchased decks unlocked;
+- confirm and restore purchases;
+- return search results;
+- send notifications you have allowed;
+- understand how the App is used, fix problems and improve the game.
 
-## CCPA Privacy Rights (Do Not Sell My Personal Information) 
+## Who we share information with
 
-Under the CCPA, among other rights, California consumers have the right to: 
+We do not sell your personal information, and we do not share it for advertising. We share information only with service providers that run parts of the App for us:
 
-- Request that a business that collects a consumer’s personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.  
-- Request that a business that sells a consumer’s personal data, not sell the consumer’s personal data.  
+- **Google** (Firebase Authentication, Cloud Firestore, Firebase Analytics and Firebase Cloud Messaging; and Google Sign-In and Google Play if you use them);
+- **Apple** (Sign in with Apple and the App Store, if you use them);
+- **RevenueCat** (purchases);
+- **Algolia** (deck search).
 
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at[ info@foryourheadapp.com ](mailto:info@foryourheadapp.com)
+Each of these providers processes information under its own privacy policy. We may also share information if the law requires it.
 
-## GDPR Data Protection Rights.
+## How long we keep information
 
-We would like to make sure you are fully aware of all your data protection rights. Every user is entitled to the following:  
+We keep your account information and purchased decks until you delete your account. Analytics data is kept for the retention period set in our Firebase Analytics settings. Records of purchases may also be kept by Apple, Google and RevenueCat under their own policies.
 
-- The right to access- You have the right to request copies of your personal data. We may charge a small fee for this service.  
-- The right to rectification- You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete. 
-- The right to erasure- You have the right request that we erase your personal data, under certain conditions.  
-- The right to restrict processing- You have the right to request that we restrict the processing of your personal data, under certain conditions. 
-- The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.  
+## Deleting your account
 
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.  
+You can delete your account in the App: **Settings → Delete Account**. This deletes your account and the record of your purchased decks from our database. You can also ask us to delete your data by emailing [info@foryourheadapp.com](mailto:info@foryourheadapp.com).
 
-## Children’s Privacy 
+Deleting your account does not cancel or refund purchases made through Apple or Google.
 
-At For Your Head, we do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we will immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions. 
+## Your rights
 
-## Changes to This Privacy Policy 
+Depending on where you live (for example under the GDPR in the UK and EU, or the CCPA in California), you may have the right to:
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. 
+- ask for a copy of the personal information we hold about you;
+- ask us to correct it;
+- ask us to delete it;
+- ask us to restrict or object to how we use it;
+- ask us to transfer it to you or another organisation.
 
-This policy is effective as of 2021-05-11 
+To make a request, email [info@foryourheadapp.com](mailto:info@foryourheadapp.com). We will respond within one month. We do not sell personal information.
 
-## Contact Us 
+## Children
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at[ info@foryourheadapp.com ](mailto:info@foryourheadapp.com) 
+For Your Head is a family-friendly game. We do not knowingly collect personal information from children under 13 beyond what is needed for the App to work. If you are a parent or guardian and believe your child has given us personal information, contact us at [info@foryourheadapp.com](mailto:info@foryourheadapp.com) and we will delete it.
+
+## Security
+
+We use reasonable measures to protect your information, including access rules on our database. No method of storing or sending information over the internet is completely secure, so we cannot guarantee absolute security.
+
+## Changes to this policy
+
+We may update this policy from time to time. We will post the new version on this page and update the date at the top.
+
+## Contact us
+
+For Your Head LLC
+Email: [info@foryourheadapp.com](mailto:info@foryourheadapp.com)
